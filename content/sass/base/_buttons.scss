@@ -44,7 +44,7 @@
 @media (hover: hover) {
   .button-stroke:hover {
     color: var(--bg-color);
-    &:hover{
+    &:hover, &:active{
         .button-text{
             color: var(--bg-color);
             svg{
