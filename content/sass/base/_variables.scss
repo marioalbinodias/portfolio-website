@@ -1,0 +1,36 @@
+// Colors
+
+:root{
+    --bg-color: #1B1B1B;
+    --text-color: #ECECEC;
+    --primary-color: #F8D65B;
+    --grey: #323232;
+    --gradient: 149, 128, 55;
+    --gradient-end: 27, 27, 27;
+    --grey-rgb: 50, 50, 50;
+    --green: #248232;
+}
+
+[data-theme='light']{
+    --bg-color: #ECECEC;
+    --text-color: #1B1B1B;
+    --primary-color: #1600FF;
+    --grey: #D8D8D8;
+    --gradient: 167, 159, 255;
+    --gradient-end: 236, 236, 236;
+    --grey-rgb: 216, 216, 216;
+    --green: #3CCD60;
+}
+
+$primary-black: #1B1B1B;
+$primary-yellow: #F8D65B;
+$primary-grey: #323232;
+$dull-white: #ECECEC;
+$gradient-yellow: #958037;
+
+// Fonts
+$astasans-regular: 'astasans-regular', 'sans-serif';
+$astasans-medium: 'astasans-medium', 'sans-serif';
+$astasans-bold: 'astasans-bold', 'sans-serif';
+$oswald-semibold: 'oswald-semibold', 'sans-serif';
+$oswald-bold: 'oswald-bold', 'sans-serif';

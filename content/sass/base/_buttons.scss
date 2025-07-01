@@ -1,0 +1,115 @@
+// .primary-btn{
+//     display: inline-block;
+//     padding: 12px 14px;
+//     text-decoration: none;
+//     color: var(--primary-color);
+//     font-family: $astasans-medium;
+//     font-size: 16px;
+//     line-height: normal;
+//     background-color: transparent;
+//     border: 1px solid var(--primary-color);
+//     border-radius: 25px;
+//     transition: 0.3s ease;
+//     svg{
+//         display: inline-block;
+//         vertical-align: text-bottom;
+//         fill: var(--primary-color);
+//     }
+//     &:hover{
+//         color: var(--bg-color);
+//         background-color: var(--primary-color);
+//         svg{
+//             fill: var(--bg-color);
+//         }
+//     }
+// }
+
+.button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: 0 0;
+    border: none;
+    border-radius: 30px;
+    color: var(--primary-color);
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media (hover: hover) {
+  .button-stroke:hover {
+    color: var(--bg-color);
+    &:hover{
+        .button-text{
+            color: var(--bg-color);
+            svg{
+                fill: var(--bg-color);
+            }
+        }
+    }
+  }
+}
+.button-stroke{
+  .button-effect {
+    transform: scale(0);
+    transform-origin: 0 0;
+    will-change: transform;
+  }
+  &:after{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    content: '';
+    pointer-events: none;
+    &:hover{
+      .button-text{
+        transition: color 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+      }
+    }
+  }
+}
+.button-effect {
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  &:before{
+    aspect-ratio: 1/1;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    content: "";
+    display: block;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+    width: 170%;
+  }
+}
+.button-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+  font-family: $astasans-regular;
+  transition: color 50ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    svg{
+        display: inline-block;
+        vertical-align: text-bottom;
+        fill: var(--primary-color);
+    }
+}

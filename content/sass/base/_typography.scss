@@ -1,0 +1,78 @@
+h1{
+    font-family: $oswald-bold;
+    font-size: 170px;
+    text-transform: uppercase;
+    width: 470px;
+    text-align: center;
+    line-height: 190px;
+    letter-spacing: -2px;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    @include breakpoint(1279){
+        font-size: 150px;
+        line-height: 166px;
+    }
+    @include breakpoint(767){
+        font-size: 120px;
+        line-height: 132px;
+        margin-bottom: 18px;
+    }
+}
+h2{
+    font-family: $astasans-medium;
+    font-size: 40px;
+    line-height: normal;
+    color: var(--text-color);
+    margin-bottom: 0;
+    @include breakpoint(1279){
+        font-size: 36px;
+    }
+    @include breakpoint(767){
+        font-size: 30px;
+    }
+}
+h3{
+    font-family: $astasans-medium;
+    font-size: 32px;
+    line-height: normal;
+    color: var(--text-color);
+    @include breakpoint(1279){
+        font-size: 28px;
+    }
+    @include breakpoint(767){
+        font-size: 26px;
+    }
+    span{
+        color: var(--primary-color);
+    }
+}
+h4{
+    font-family: $oswald-bold;
+    font-size: 200px;
+    color: rgba(var(--grey-rgb), 0.7);
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-align: center;
+    @include breakpoint(1279){
+        font-size: 160px;
+    }
+    @include breakpoint(1023){
+        font-size: 148px;
+    }
+    @include breakpoint(767){
+        font-size: 126px;
+        line-height: 140px;
+    }
+}
+
+p{
+    font-family: $astasans-regular;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--text-color);
+    max-width: 600px;
+    margin-bottom: 36px;
+    strong{
+        font-family: $astasans-bold;
+    }
+}

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'astasans-regular';
+    src: url(../fonts/AstaSans-Regular.woff),
+        url(../fonts/AstaSans-Medium.woff2);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'astasans-medium';
+    src: url(../fonts/AstaSans-Medium.woff),
+        url(../fonts/AstaSans-Medium.woff2);
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'astasans-bold';
+    src: url(../fonts/AstaSans-Bold.woff),
+        url(../fonts/AstaSans-Bold.woff2);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'oswald-semibold';
+    src: url(../fonts/Oswald-SemiBold.woff),
+        url(../fonts/Oswald-SemiBold.woff2);
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'oswald-bold';
+    src: url(../fonts/Oswald-Bold.woff),
+        url(../fonts/Oswald-Bold.woff2);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

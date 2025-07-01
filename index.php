@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="content/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="content/css/aos.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="content/css/styles.min.css">
+    <title>Mario Dias</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="content/images/favicon.png">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg" id="header">
+            <div class="container-xl custom-container">
+                <a class="navbar-brand" href="index.php">
+                    <img src="content/images/mario-dias-initials.gif" alt="M.D. Initials" class="dark">
+                    <img src="content/images/mario-dias-initials-light.gif" alt="M.D. Initials" class="light">
+                </a>
+                <div class="right-side-nav-details">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarExample-expand-sm" aria-controls="offcanvasNavbarExample-expand-sm" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <span class="top"></span>
+                            <span class="middle"></span>
+                            <span class="bottom"></span>
+                        </span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" data-bs-hideresize="true" tabindex="-1" id="offcanvasNavbarExample-expand-sm" aria-labelledby="offcanvasNavbarExample-expand-smLabel" aria-hidden="true">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1">
+                                <li data-section="section-1" class="nav-item">
+                                    <a href="#about" class="nav-link">About</a>
+                                </li>
+                                <li data-section="section-2" class="nav-item">
+                                    <a href="#work" class="nav-link">Work</a>
+                                </li>
+                                <li data-section="section-3" class="nav-item">
+                                    <a href="#contact" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <label for="toggle" class="switch" aria-label="Toggle Switch">
+                        <input type="checkbox" id="toggle" name="toggle">
+                        <span class="theme-switcher"></span>
+                    </label>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main class="home">
+        <section class="hero">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="eyebrow-heading">
+                            <h2>👋 Hi, I'm</h2>
+                        </div>
+                        <div class="main-heading">
+                            <h1>Mario Dias</h1>
+                        </div>
+                        <div id="typed-strings">
+                            <span>a <u>UI Designer</u></span>
+                            <span>a <u>UI Developer</u></span>
+                            <span>and a <u><em>UI Engineer</em></u></span>
+                        </div>
+                        <span class="type-wrapper" data-aos="fade-up" data-aos-delay="800">
+                            <span id="typed-element"></span> 
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <img class="hero-image" src="content/images/mario-dias-picture.png" alt="Mario Dias">
+        </section>
+        <section class="about" id="about">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="header-block" data-aos="fade-up">
+                        <h3>ab<span>out</span></h3>
+                        <span class="line" id="line"></span>
+                    </div>
+                    <div class="col-md-12">
+                        <p data-aos="fade-up">
+                        Born and raised in Goa, India, I started my professional journey with a degree in Computer Science and Engineering. After graduating, I discovered my passion for design, dedicating nearly seven years to honing my skills in <strong>graphic design</strong>, <strong>simple motion graphics</strong>, and <strong>basic video editing</strong>. My work often involved close collaboration with tech teams, which led me to specialize in <strong>UI/UX design</strong> for both websites and mobile applications.
+                        </p>
+                        <p data-aos="fade-up">
+                        In 2025, I made the decision to bridge my design expertise with my technical background. I've since dedicated months to relearning foundational syntax and applying my skills to build real-world web development projects.
+                        </p>
+                        <p data-aos="fade-up">
+                        I'm committed to continuously mastering both the <strong>design</strong> and <strong>front-end tech stack</strong>, and looking out for opportunities where I can contribute to a company's success while also upskilling myself.
+                        For a more detailed look at my experience, please view my resume below.
+                        </p>
+                        <!-- <a href="#" class="primary-btn">
+                            View Resume
+                            <svg width="31" height="22" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.2812 4.0625C20.2812 5.68126 20.6838 6.84548 21.249 7.69336C21.8173 8.54579 22.5803 9.12359 23.3662 9.5166C24.155 9.91101 24.9535 10.1117 25.5605 10.2129C25.8623 10.2632 26.1127 10.2885 26.2842 10.3008C26.3696 10.3069 26.4352 10.3101 26.4775 10.3115H26.5273V10.3125H26.5322L26.5312 10.7129L26.5322 11.8125H26.5234C26.5144 11.8126 26.4987 11.8128 26.4775 11.8135C26.4352 11.8149 26.3696 11.8181 26.2842 11.8242C26.1127 11.8365 25.8623 11.8618 25.5605 11.9121C24.9535 12.0133 24.155 12.214 23.3662 12.6084C22.5803 13.0014 21.8173 13.5792 21.249 14.4316C20.6838 15.2795 20.2812 16.4437 20.2812 18.0625H18.7812C18.7812 16.1813 19.2537 14.7205 20.001 13.5996C20.5078 12.8394 21.1291 12.2585 21.7773 11.8115H4.52734V10.3115H21.7744C21.1272 9.86476 20.507 9.28449 20.001 8.52539C19.2537 7.40452 18.7812 5.94374 18.7812 4.0625H20.2812Z"/>
+                            </svg>
+                        </a> -->
+                        <a href="content/docs/md-deck-under-construction.pdf" target="_blank" rel="noopener" class="button button-stroke" data-aos="fade-up">
+                            <span class="button-effect"></span>
+                            <span class="button-text">View Resume
+                                <svg width="31" height="22" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20.2812 4.0625C20.2812 5.68126 20.6838 6.84548 21.249 7.69336C21.8173 8.54579 22.5803 9.12359 23.3662 9.5166C24.155 9.91101 24.9535 10.1117 25.5605 10.2129C25.8623 10.2632 26.1127 10.2885 26.2842 10.3008C26.3696 10.3069 26.4352 10.3101 26.4775 10.3115H26.5273V10.3125H26.5322L26.5312 10.7129L26.5322 11.8125H26.5234C26.5144 11.8126 26.4987 11.8128 26.4775 11.8135C26.4352 11.8149 26.3696 11.8181 26.2842 11.8242C26.1127 11.8365 25.8623 11.8618 25.5605 11.9121C24.9535 12.0133 24.155 12.214 23.3662 12.6084C22.5803 13.0014 21.8173 13.5792 21.249 14.4316C20.6838 15.2795 20.2812 16.4437 20.2812 18.0625H18.7812C18.7812 16.1813 19.2537 14.7205 20.001 13.5996C20.5078 12.8394 21.1291 12.2585 21.7773 11.8115H4.52734V10.3115H21.7744C21.1272 9.86476 20.507 9.28449 20.001 8.52539C19.2537 7.40452 18.7812 5.94374 18.7812 4.0625H20.2812Z"/>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="nav nav-pills" id="pills-tab" role="tablist" data-aos="fade-up" data-aos-delay="50">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design" type="button" role="tab" aria-controls="pills-design" aria-selected="true">Design Stack</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-tech-tab" data-bs-toggle="pill" data-bs-target="#pills-tech" type="button" role="tab" aria-controls="pills-tech" aria-selected="false">Tech Stack</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent" data-aos="zoom-out-up">
+                            <div class="tab-pane fade show active" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab" tabindex="0">
+                                <ul>
+                                   <li><img src="content/images/figma-logo.png" alt="Figma"></li>
+                                   <li><img src="content/images/powerpoint-logo.png" alt="Powerpoint"></li>
+                                   <li><img src="content/images/illustrator-logo.png" alt="Illustrator"></li>
+                                   <li><img src="content/images/photoshop-logo.png" alt="Photoshop"></li>
+                                   <li><img src="content/images/indesign-logo.png" alt="Indesign"></li>
+                                   <li><img src="content/images/after-effects-logo.png" alt="After Effects"></li>
+                                   <li><img src="content/images/rive-logo.png" alt="Rive" class="dull-image"></li> 
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="pills-tech" role="tabpanel" aria-labelledby="pills-tech-tab" tabindex="0">
+                                <ul>
+                                    <li><img src="content/images/html-logo.png" alt="HTML"></li>
+                                    <li><img src="content/images/css-logo.png" alt="CSS"></li>
+                                    <li><img src="content/images/sass-logo.png" alt="Sass"></li>
+                                    <li><img src="content/images/bootstrap-logo.png" alt="Bootstrap"></li>
+                                    <li><img src="content/images/js-logo.png" alt="JS"></li>
+                                    <li><img src="content/images/svelte-logo.png" alt="Svelte" class="dull-image"></li>
+                                    <li><img src="content/images/gsap-logo.png" alt="GSAP" class="dull-image"></li>
+                                    <li><img src="content/images/wordpress-logo.png" alt="Wordpress" class="dull-image"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="status" data-aos="zoom-out-up">
+                            <div class="circle-pulse">
+                                <span></span>
+                            </div>
+                            <p>Dull icons are the tools I am learning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="marquee">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="marquee-container" data-aos="fade-up">
+                        <ul class="marquee-track">
+                            <li>Figma
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Photoshop
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Illustrator
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Powerpoint
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Indesign
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>After Effects
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Rive
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                        </ul>
+                        <ul class="marquee-track">
+                            <li>Figma
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Photoshop
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Illustrator
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Powerpoint
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Indesign
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>After Effects
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Rive
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="marquee-container" data-aos="fade-up">
+                        <ul class="marquee-track">
+                            <li>HTML
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>CSS
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Javascript
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Bootstrap
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Sass
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Svelte
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Gsap
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                        </ul>
+                        <ul class="marquee-track">
+                            <li>HTML
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>CSS
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Javascript
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Bootstrap
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Sass
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Svelte
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                            <li>Gsap
+                                <svg logo="marquee-star-dark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7422 32C15.7422 23.8091 8.41442 15.7422 0 15.7422C8.51687 15.7422 15.7422 8.45805 15.7422 0C15.7422 8.28533 23.7607 15.7422 32 15.7422C23.8808 15.7422 15.7422 24.0033 15.7422 32Z"/>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work" id="work">
+            <div class="container-xl">
+                <div class="header-block" data-aos="fade-up">
+                    <h3>wo<span>rk</span></h3>
+                    <span class="line" id="line"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="work-image-wrapper">
+                            <div class="reveal">
+                                <img class="reveal-img" src="content/images/work-img-block-1.png" alt="Image Block 1">
+                            </div>
+                            <div class="reveal">
+                                <img class="reveal-img" src="content/images/work-img-block-2.png" alt="Image Block 2">
+                            </div>
+                            <div class="reveal">
+                                <img class="reveal-img" src="content/images/work-img-block-3.png" alt="Image Block 3">
+                            </div>
+                            <div class="reveal">
+                                <img class="reveal-img" src="content/images/work-img-block-4.png" alt="Image Block 4">
+                            </div>
+                        </div>
+                        <p data-aos="fade-up"><a href="content/docs/md-deck-under-construction.pdf" target="_blank" rel="noopener">Click here</a> to view more work</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container-xl">
+                <div class="header-block" data-aos="fade-up">
+                    <h3>cont<span>act</span></h3>
+                    <span class="line" id="line"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="email" data-aos="fade-up" data-aos-delay="100">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:marioalbinodias@gmail.com">
+                                marioalbinodias@gmail.com
+                            </a>
+                        </div>
+                        <div class="phone" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+919850106862">
+                                +91 98501 06862
+                            </a>
+                        </div>
+                    </div>
+                    <h4 data-aos="fade-up" data-aos-delay="200">Mario Dias</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="content/scripts/bootstrap.bundle.min.js"></script>
+    <!-- Typed JS -->
+    <script src="content/scripts/typed.umd.js"></script>
+    <!-- GSAP -->
+    <script src="content/scripts/gsap.min.js"></script>
+    <!-- ScrollTrigger -->
+    <script src="content/scripts/ScrollTrigger.min.js"></script>
+    <!-- AOS JS -->
+    <script src="content/scripts/aos.js"></script>
+    <!-- Global and Shared JS -->
+    <script src="content/scripts/script.js"></script>
+</body>
+</html>
