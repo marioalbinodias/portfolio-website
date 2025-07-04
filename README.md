@@ -32,8 +32,6 @@ Having a background in UI and graphic design, I decided to delve into **UI Devel
 ![Preview](./homepage-preview-1.png)
 ![Preview](./homepage-preview-2.png)
 ![Preview](./homepage-preview-3.png)
-![Preview](./homepage-mobile-preview-1.jpeg)
-![Preview](./homepage-mobile-preview-2.jpeg)
 
 
 ## ⚙️ Usage / Setup Instructions
