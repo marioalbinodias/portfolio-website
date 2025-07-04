@@ -46,6 +46,6 @@ git clone https://github.com/marioalbinodias/portfolio-website.git
 cd portfolio-website
 
 Open index.html in your browser directly, or use a development server like:
-	•	Live Server (VSCode extension)
-	•	XAMPP/MAMP for local server setup
-	•	Live Sass Compiler for SCSS auto-compilation
+•	Live Server (VSCode extension)
+•	XAMPP/MAMP for local server setup
+•	Live Sass Compiler for SCSS auto-compilation
