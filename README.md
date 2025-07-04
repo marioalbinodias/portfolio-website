@@ -27,6 +27,15 @@ Having a background in UI and graphic design, I decided to delve into **UI Devel
 
 ---
 
+## 🖼 Preview
+
+![Preview](./homepage-preview-1.png)
+![Preview](./homepage-preview-2.png)
+![Preview](./homepage-preview-3.png)
+![Preview](./homepage-mobile-preview-1.jpeg)
+![Preview](./homepage-mobile-preview-2.jpeg)
+
+
 ## ⚙️ Usage / Setup Instructions
 
 To run the project locally:
@@ -38,3 +47,7 @@ git clone https://github.com/marioalbinodias/portfolio-website.git
 # Navigate into the project folder
 cd portfolio-website
 
+Open index.html in your browser directly, or use a development server like:
+	•	Live Server (VSCode extension)
+	•	XAMPP/MAMP for local server setup
+	•	Live Sass Compiler for SCSS auto-compilation
