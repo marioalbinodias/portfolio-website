@@ -295,8 +295,8 @@
     }
 }
 .marquee{
+    padding-bottom: 75px;
     .container-fluid{
-        padding-bottom: 75px;
         .row{
             position: relative;
             .marquee-container{
@@ -586,65 +586,23 @@
                 justify-content: center;
                 align-items: flex-start;
                 gap: 30px;
-                margin-bottom: 260px;
+                margin-bottom: 210px;
                 @include breakpoint(1279){
                     margin-bottom: 180px;
                 }
                 @include breakpoint(767){
                     margin-bottom: 120px;
-                    gap: 14px;
+                    gap: 24px;
                     width: fit-content;
                 }
-                .email{
+                .contact-icon{
                     display: flex;
                     gap: 30px;
                     @include breakpoint(767){
-                        gap: 12px;
+                        gap: 14px;
                     }
                     i{
                         padding-top: 2px;
-                        font-size: 22px;
-                        color: var(--primary-color);
-                        @include breakpoint(767){
-                            font-size: 18px;
-                        }
-                    }
-                    a{
-                        font-family: $astasans-regular;
-                        color: var(--text-color);
-                        font-size: 18px;
-                        text-decoration: none;
-                        position: relative;
-                        cursor: pointer;
-                        @include breakpoint(767){
-                            font-size: 16px;
-                        }
-                        &::after{
-                            content: '';
-                            position: absolute;
-                            width: 0;
-                            height: 1px;
-                            background-color: var(--primary-color);
-                            bottom: 0;
-                            left: 0;
-                            transform: translateX(0%);
-                            transition: width 0.3s ease;
-                        }
-                        &:hover{
-                            color: var(--primary-color);
-                            &::after{
-                                width: 100%;
-                            }
-                        }
-                    }
-                }
-                .phone{
-                    display: flex;
-                    gap: 30px;
-                    @include breakpoint(767){
-                        gap: 12px;
-                    }
-                    i{
                         font-size: 22px;
                         color: var(--primary-color);
                         @include breakpoint(767){
@@ -684,7 +642,7 @@
             h4{
                 position: absolute;
                 left: 0%;
-                top: 50%;
+                top: 55%;
                 transform: translateY(0%);
             }
         }
