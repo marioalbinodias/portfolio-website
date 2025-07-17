@@ -598,6 +598,7 @@
                 .contact-icon{
                     display: flex;
                     gap: 30px;
+                    z-index: 11;
                     @include breakpoint(767){
                         gap: 14px;
                     }
@@ -642,8 +643,11 @@
             h4{
                 position: absolute;
                 left: 0%;
-                top: 55%;
+                top: 60%;
                 transform: translateY(0%);
+                @include breakpoint(767){
+                    top: 65%;
+                }
             }
         }
     }
