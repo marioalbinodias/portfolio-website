@@ -39,6 +39,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Theme Switch
     function themeSwitch(){
+
+        console.log('Theme switch function running');
+
         const toggle = document.getElementById('toggle');
         const savedTheme = localStorage.getItem('theme') || 'dark';
         document.documentElement.setAttribute('data-theme', savedTheme);
@@ -60,6 +63,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // Hero Image
     function heroImageAnimation(){
         const heroContainer = document.querySelector('.hero');
+
+        if(!heroContainer){
+            return;
+        }
         const heroImage = document.querySelector('.hero-image');
 
         function disableOnMobile(){
@@ -90,18 +97,26 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     
     // Typed.JS
-    const typed = new Typed('#typed-element', {
-        stringsElement: '#typed-strings',
-        typeSpeed: 100,
-        backSpeed: 50,
-        startDelay: 500,
-        backDelay: 1000,
-        loop: true,
-        loopCount: Infinity,
-        smartBackspace: true,
-        showCursor: true,
-        cursorChar: '|',
-    });
+    function typedText(){
+        const typedElement = document.querySelector('#typed-element');
+
+        if(!typedElement){
+            return;
+        }
+
+        const typed = new Typed('#typed-element', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 100,
+            backSpeed: 50,
+            startDelay: 500,
+            backDelay: 1000,
+            loop: true,
+            loopCount: Infinity,
+            smartBackspace: true,
+            showCursor: true,
+            cursorChar: '|',
+        });
+    }
 
     // Custom Menu
     function customMenu(){
@@ -260,11 +275,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function heroTextAnimation(){
-        // Variable declarations
         let eyebrowHeadingContainer = document.querySelector(".eyebrow-heading");
-        let eyebrowHeading = eyebrowHeadingContainer.querySelector("h2");
         let mainHeadingContainer = document.querySelector(".main-heading");
+
+        if (!eyebrowHeadingContainer || !mainHeadingContainer) {
+            return;
+        }
+
         let mainHeading = mainHeadingContainer.querySelector("h1");
+        let eyebrowHeading = eyebrowHeadingContainer.querySelector("h2");
 
         let tl = gsap.timeline({
             scrollTrigger:{
@@ -311,7 +330,9 @@ document.addEventListener("DOMContentLoaded", () => {
         once: true,
         duration: 800,
     });
+
     themeSwitch();
+    typedText();
     customMenu();
     closeOffcanvasOnSelectingNavLink();
     heroTextAnimation();

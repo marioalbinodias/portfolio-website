@@ -35,4 +35,9 @@ body{
             transform: translateY(-60%);
         }
     }
+    &.inner-page{
+        &::before{
+            display: none;
+        }
+    }
 }
